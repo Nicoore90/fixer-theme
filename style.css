@@ -1,9 +1,9 @@
 /*
-Theme Name: Druco Child
+Theme Name: Repuestos Fixer
 Theme URI: https://demo.theme-sky.com/druco/
-Author: Theme Sky Team
+Author: Nicoore
 Author URI: http://theme-sky.com/
-Description: A Premium and Responsive WordPress theme, designed for E-Commerce websites
+Description: Tema hijo de Druco desarrollado para el sitio repuestosfixer.com
 Template: druco
 Version: 1.0.0
 License: GNU General Public License v2 or later
@@ -18,5 +18,19 @@ Text Domain: druco-child
 
 .vertical-menu-heading {
 	display: none;
+}
+
+.whatsapp-button{
+	background-color: green;
+	border-radius: 50%;
+	position: fixed;
+	bottom: 70px;
+	right: 25px;
+	padding: 10px 12px;
+}
+
+.whatsapp-button i{
+	font-size: 25px;
+	color: #fff;
 }
 
