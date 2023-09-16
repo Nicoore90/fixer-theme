@@ -29,8 +29,21 @@ Text Domain: druco-child
 	padding: 10px 12px;
 }
 
+.whatsapp-button{
+	background-color: green;
+	border-radius: 50%;
+	position: fixed;
+	bottom: 70px;
+	right: 25px;
+	padding: 15px 20px;
+}
+
 .whatsapp-button i{
 	font-size: 25px;
 	color: #fff;
+}
+
+#menu-header{
+	display: none;
 }
 
