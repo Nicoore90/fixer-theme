@@ -26,15 +26,6 @@ Text Domain: druco-child
 	position: fixed;
 	bottom: 70px;
 	right: 25px;
-	padding: 10px 12px;
-}
-
-.whatsapp-button{
-	background-color: green;
-	border-radius: 50%;
-	position: fixed;
-	bottom: 70px;
-	right: 25px;
 	padding: 15px 20px;
 }
 
@@ -45,5 +36,15 @@ Text Domain: druco-child
 
 #menu-header{
 	display: none;
+}
+
+#undefined-sticky-wrapper .header-sticky .header-middle{
+	background-color: #000;
+	border-style: none;
+}
+
+#undefined-sticky-wrapper .header-sticky .header-bottom.hidden-phone{
+	background-color: #000;
+	border-top: 0px;
 }
 
