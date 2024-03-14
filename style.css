@@ -27,6 +27,7 @@ Text Domain: druco-child
 	bottom: 70px;
 	right: 25px;
 	padding: 15px 20px;
+	z-index: 9999;
 }
 
 .whatsapp-button i{
@@ -64,4 +65,125 @@ Text Domain: druco-child
 
 .woocommerce-store-notice.demo_store{
     display: none;
+}
+
+.header-top{
+	display: none;
+}
+
+nav.vertical-menu.pc-menu.ts-mega-menu-wrapper{
+	margin-top: 5rem;
+}
+
+.footer_information p{
+	color: #fff;
+}
+
+.product-label span.featured{
+    display: none;
+}
+
+.product-group-button-meta .loop-add-to-cart .button.product_type_simple.add_to_cart_button.ajax_add_to_cart{
+    background-color: #00CE7C;
+}
+
+.product-group-button-meta .loop-add-to-cart .button.product_type_simple.add_to_cart_button.ajax_add_to_cart:hover{
+    background-color: #000;
+}
+
+.product-group-button-meta .loop-add-to-cart .button.product_type_simple.add_to_cart_button.ajax_add_to_cart .ts-tooltip.button-tooltip{
+    color: #000;
+}
+
+.product-group-button-meta .loop-add-to-cart .button.product_type_simple.add_to_cart_button.ajax_add_to_cart:hover .ts-tooltip.button-tooltip{
+    color: #fff;
+}
+
+h2.heading-title{
+    font-family: raleway;
+    color: #00263e;
+}
+
+li.tab-item.general-tab.current{
+    color:  #00263e;
+}
+
+li.tab-item.general-tab.current span{
+    font-family: raleway;
+    color: #fff;
+}
+
+div.woocommerce-tabs.wc-tabs-wrapper{
+    display: none;
+}
+
+.ts-testimonial-wrapper .rating span:before, blockquote .rating span:before{
+	color: #00ce7c !important;
+}
+
+div.swiper-pagination span.swiper-pagination-bullet-active{
+	background: #00ce7c !important;
+}
+
+span bdi{
+    color: #000 !important;
+}
+
+.ts-header.has-sticky.hidden-wishlist.hidden-currency.hidden-language .header-container {
+	background-color: #000;
+}
+
+h1, h2, h3, h4, h5, h6, p, span, label{
+	color: #000;
+}
+
+.woocommerce ul#shipping_method li label, .woocommerce-checkout #payment ul.payment_methods li label{
+	color: #000;
+}
+
+.ts-search-by-category .search-table .search-field input[type="text"]{
+		color: rgba(0,0,0,1);
+	}
+
+.woocommerce ul.product_list_widget li a.title{
+	color: #ccc;
+}
+
+ul#menu-menu-inicial .menu-item a span{
+	color: #fff;
+}
+
+span.ic-cart{
+	color: #fff;
+}
+
+input.wpcf7-form-control.wpcf7-submit.has-spinner{
+	border: none;
+}
+
+.elementor-kit-5069 label.form_label{
+	color: #000;
+}
+
+.woocommerce #customer_login form.login .button, .woocommerce #customer_login form.register .button{
+	border-color: #000;
+}
+
+h3.elementor-icon-box-title span{
+	color: #00ce7c; 
+}
+
+.ts-search-by-category .select-category, .ts-search-by-category .select-category  option{
+	font-size: 0.8rem;
+}
+
+@media (max-width: 767px){
+	.ts-search-by-category .select-category, .ts-search-by-category .select-category  option{
+	font-size: 0.6rem;
+}
+	
+	@media only screen and (max-width: 767px){
+		header .ts-mobile-icon-toggle .icon:before {
+			color: #fff;
+		}
 }

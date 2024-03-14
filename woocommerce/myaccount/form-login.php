@@ -109,8 +109,8 @@ do_action( 'woocommerce_before_customer_login_form' ); ?>
 					</div>
 					
 				<div class='radio-container'>
-	 				<input type="radio" id="taller" name="tipoCliente" value="taller" />
-					  <label for="taller">Taller</label>
+	 				<input type="radio" id="empresa" name="tipoCliente" value="empresa" />
+					  <label for="empresa">Empresa</label>
 				</div>
 					 
 			</div>
